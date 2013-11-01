@@ -10,7 +10,8 @@ Consider what a distance method would look like and start simple.
 
 For example
 
-``public static double distance()
+``
+public static double distance()
 {
   return 0.0;
 }
