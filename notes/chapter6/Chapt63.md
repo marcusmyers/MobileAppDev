@@ -19,3 +19,13 @@ The second step is to find the area of a circle wit that radius, and return it.
 double area = area(radius);
 return area;
 ```
+
+If we created a method that wrapped that all up it might look like this:
+
+```java
+publi static double circleArea(double xc, double yc, double xp, double yp){
+  double radius = distance(xc, yc, xp, yp);
+  double area = area(radius);
+  return area;
+}
+```
