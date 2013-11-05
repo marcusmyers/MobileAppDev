@@ -24,7 +24,6 @@ The result of a conditional operator is a boolean, so you can store the result o
    System.out.println("n was even when I checked it");
  }
 
-
 ```
 
 A variable used in this way is called a flag because it flags the presence or absence of some condition.
