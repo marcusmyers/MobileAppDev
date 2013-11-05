@@ -2,4 +2,3 @@
 
 
 * [Notes](./notes/README.md)
-* [Exercises](./exercise)
