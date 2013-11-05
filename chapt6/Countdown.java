@@ -5,6 +5,14 @@ class Countdown {
     double r = 6.0;
     double a = area(r);
     double x = area(1.0, 2.0, 4.0, 6.0);
+
+    boolean isEven = false;
+
+    if(!isEven) {
+	System.out.println("This is a false statement");
+    } else {
+  	System.out.println("This is a true statement");
+    }
     System.out.println("The area of circle one is: " + a);
     System.out.println("The area of the circle is: " + x);
   }
