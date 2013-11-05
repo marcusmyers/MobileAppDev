@@ -8,6 +8,12 @@ class Countdown {
 
     boolean isEven = false;
 
+    int x = 5;
+    if(x > 0 && x < 10){
+      System.out.println("x is positive single digit.");
+    }
+
+
     if(!isEven) {
 	System.out.println("This is a false statement");
     } else {
