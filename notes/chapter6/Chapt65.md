@@ -9,3 +9,22 @@ boolean flag; // assignment
 flag = true;
 boolean testResult = false; // initialization
 ```
+
+The values true and false are keywords in Java.
+
+
+The result of a conditional operator is a boolean, so you can store the result of a comparison in a variable and then use it as part of a conditional statement later:
+
+```java
+
+ boolean evenFlag = (n%2 == 0);     // true if n is even
+ boolean positiveFlag = (x > 0);    // true if x is positive
+
+ if (evenFlag) {
+   System.out.println("n was even when I checked it");
+ }
+
+
+```
+
+A variable used in this way is called a flag because it flags the presence or absence of some condition.
