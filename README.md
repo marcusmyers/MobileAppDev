@@ -2,3 +2,8 @@
 
 
 * [Notes](./notes/README.md)
+
+
+### Git Resources
+
+
