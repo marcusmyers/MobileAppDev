@@ -6,4 +6,10 @@
 
 ### Git Resources
 
+Clone a repository from github
+```
 
+$ git clone https://github.com/marcusmyers/MobileAppDev.git
+$
+
+```
