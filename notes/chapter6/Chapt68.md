@@ -34,7 +34,7 @@ to find the factorial of n − 1, and then multiply it by n.
       return result;
     } 
   }
-``
+```
 The flow of execution for this program is similar to countdown from Sec- tion 4.8.
 
 If we invoke factorial with the value 3:
