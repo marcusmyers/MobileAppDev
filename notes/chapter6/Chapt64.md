@@ -39,3 +39,9 @@ double x = area(1.0, 2.0, 4.0, 6.0);
 ```
 Java uses the second version of area. And notice that the second version of
 area actually invokes the first.
+
+Many Java methods are overloaded, meaning that there are different versions that accept different numbers or types of parameters. For example, there are versions of print and println that accept a single parameter of any type. In the Math class, there is a version of abs that works on doubles, and there is also a version for ints.
+
+Although overloading is a useful feature, it should be used with caution. You might get yourself nicely confused if you are trying to debug one version of a method while accidently invoking a different one.
+
+And that reminds me of one of the cardinal rules of debugging: make sure that the version of the program you are looking at is the version of the program that is running!
