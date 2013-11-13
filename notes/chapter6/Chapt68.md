@@ -45,13 +45,15 @@ Since 3 is not zero, we take the second branch and calculate the factorial of nâ
 
     Since 1 is not zero, we take the second branch and calculate the factorial of n âˆ’ 1...
 
-      Since 0 is zero, we take the first branch and re- turn the value 1 immediately without making any more recursive invocations.
+      Since 0 is zero, we take the first branch and re- turn the value 1 immediately without making any
+      more recursive invocations.
 
     The return value (1) gets multiplied by n, which is 1, and the result is returned.
 
   The return value (1) gets multiplied by n, which is 2, and the result is returned.
 
-The return value (2) gets multiplied by n, which is 3, and the result, 6, is returned to main, or whoever invoked factorial(3).
+The return value (2) gets multiplied by n, which is 3, and the result, 6, is returned to main,
+ or whoever invoked factorial(3).
 ```
 Here is the stack diagram:
 
