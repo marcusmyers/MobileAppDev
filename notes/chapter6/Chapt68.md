@@ -38,7 +38,7 @@ to find the factorial of n − 1, and then multiply it by n.
 The flow of execution for this program is similar to countdown from Sec- tion 4.8.
 
 If we invoke factorial with the value 3:
-
+```
 Since 3 is not zero, we take the second branch and calculate the factorial of n−1...
 
   Since 2 is not zero, we take the second branch and calculate the factorial of n − 1...
@@ -52,7 +52,7 @@ Since 3 is not zero, we take the second branch and calculate the factorial of n�
   The return value (1) gets multiplied by n, which is 2, and the result is returned.
 
 The return value (2) gets multiplied by n, which is 3, and the result, 6, is returned to main, or whoever invoked factorial(3).
-
+```
 Here is the stack diagram:
 
 ![Factorial Stack](../images/factorialStack.png "Factorial Stack")
