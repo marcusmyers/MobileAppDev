@@ -4,6 +4,7 @@ class MultAdd {
   public static void main(String[] args)
   {
     double x = multadd(1.0, 2.0, 3.0);
+    System.out.println("Multadditionization: " + x);
     System.out.println(multadd(Math.sin(Math.PI/4),(Math.cos(Math.PI/4)/2)));
     System.out.println(multadd(Math.log(10), Math.log(20)));
     System.out.println(yikes(6.0));   
