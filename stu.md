@@ -7,3 +7,4 @@
 * [Alex G.](https://github.com/Fallencsgo)
 * [Logan P.](https://github.com/lbpetersen)
 * [Preston M.](https://github.com/waffles2234)
+* [Josue L.](https://github.com/rabidkitty)
